@@ -55,8 +55,8 @@ public class Scanner05 {
 
     }
     //homework
-    //1) Kullanicidan aldiginiz 3 tane sayinin ortalamasini buln kodu yazin
-        //ornegin 3,4,5 icin ortalama (3+4+50/3 = 5
+    //1) Kullanicidan aldiginiz 3 tane sayinin ortalamasini bulan kodu yazin
+        //ornegin 3,4,5 icin ortalama (3+4+5)/3 = 5
     //2) Kullanicidan aldiginiz 3 basamakli bir sayinin rakamlari toplamini bulun
     //ornegin ==>312 icin 3+2+1 =6
 }
