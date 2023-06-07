@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Arrays03 {
     public static void main(String[] args) {
 
-        //ornek 1:Integer array olustur 6 eleamn koy icine .Bu elemanlarin en kucugu ve en buyugunun toplaini yaz
+        //ornek 1:Integer array olustur 6 eleaman koy icine .Bu elemanlarin en kucugu ve en buyugunun toplamini yaz
         int ages[] = new int[6];
         ages[0] = 20;
         ages[1] = 28;
@@ -39,7 +39,7 @@ public class Arrays03 {
         colors[1]="green";
         colors[2]="orange";
         colors[3]="yellow";
-        colors[4]="broen";
+        colors[4]="brown";
         colors[5]="red";
 
         System.out.println(Arrays.toString(colors));

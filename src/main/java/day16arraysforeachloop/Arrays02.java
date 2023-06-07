@@ -42,7 +42,7 @@ public class Arrays02 {
         //for-each -loop "Array "lerde ve   "collection"larda kullanilir
 
         //Java collection ve Arraylere ozel for each loop olusturmus.Hata payi cok az
-        // ..Egerki Array ve collection ile calisyorsak ilk tercih For each Loop olmalidir.gulce
+        // ..Egerki Array ve collection ile calisiyorsak ilk tercih For each Loop olmalidir.gulce
 
         // for-each-loop "Array" lerde ve "collection" larda kullanilir
         /*
@@ -59,7 +59,7 @@ public class Arrays02 {
         }
         System.out.println(sum);
 
-        //ornek 3: Notlar adinda Integer bir array olustur icine 6 tane not yrlestir ve not ortlmasni yazdir
+        //ornek 3: Notlar adinda Integer bir array olustur icine 6 tane not yerlestir ve not ortalamasini yazdir
 
         int notlar [] = new int[6];
         notlar[0]=50;

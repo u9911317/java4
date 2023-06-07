@@ -8,18 +8,18 @@ public class Arrays01 {
         int a =13;
         //bu yapinin icinde sadece bir tane data depolanabilir
         //ama biz kod yazarken bir yapinin icnde coklu data depolama ihtiyaci hissederiz
-        //bir yapinin icinde coklu data depolayabilme icin java Array yapisini olusturmustur
+        //bir yapinin icinde coklu data depolayabilmek icin java Array yapisini olusturmustur
 
         //Array nasil olusturulur?
         String stdNames [] = new String [5];
 
         //Arrayler console nasil yazdirilir
-        //toString() methodunu kullanmddadn sadece array ismi ile yazarsak java o arrayin adresini yazar
+        //toString() methodunu kullanmadan sadece array ismi ile yazarsak java o arrayin adresini yazar
         System.out.println(Arrays.toString(stdNames));
 
         /*
         Arrayler diger coolectionlardan cok cok daha hizlidir super fast
-        Arrayler diger coolectionlardan daha az memory kullanil=rlar
+        Arrayler diger coolectionlardan daha az memory kullanirlar
          */
 
         //Array e eleman ekleme nasil yapilir?
