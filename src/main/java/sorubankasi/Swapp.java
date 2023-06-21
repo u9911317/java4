@@ -15,7 +15,7 @@ public class Swapp {
         System.out.println("sayi2 = " + sayi2);
 
         String s = "Besiktas1903";
-        System.out.println(s.replaceAll("[0-9]", "").length());
+       System.out.println(s.replaceAll("[0-9]", "").length());
 
 
 

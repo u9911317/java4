@@ -3,7 +3,7 @@ package day18multidimensionalarray;
 import java.io.FilterOutputStream;
 import java.util.Arrays;
 
-public class Tekrar01 {
+public class PassByValue02 {
     public static void main(String[] args) {
 
 
