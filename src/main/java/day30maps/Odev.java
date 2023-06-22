@@ -13,23 +13,22 @@ public class Odev {
         "Hello Henry!" ==> H=2, e=2, l=2, o=1, n=1, r=1, y=1
          */
         String s = "Hello Henry!";
-        s = s.replaceAll("\\p{Punct}", "");//tum noktalama isaretleri gitti
+      s=  s.replaceAll("[^a-zA-Z]","");
         System.out.println(s);
 
-        String letters[] = s.split("");
-        System.out.println(Arrays.toString(letters));
+       String[] letter = s.split("");
+        System.out.println(Arrays.toString(letter));
 
-        HashMap<String,Integer> occ= new HashMap<>();//letters arrayindeki harfler birer birer map de var mi yook mu kontrol ediyoz
-
-        for ( String w:letters){
-            Integer numOfOcc = occ.get(w);
-            if (numOfOcc==null){
-                occ.put(w,1);
+        HashMap<String,Integer> hsm= new HashMap<>();
+        for (String w :letter){
+            Integer num = hsm.get(w);
+            if (num==null){
+                hsm.put(w,1);
             }else {
-                occ.replace(w,numOfOcc+1);
+                hsm.replace(w,num+1);
             }
         }
-        System.out.println(occ);
+        System.out.println(hsm);
 
 
     }
